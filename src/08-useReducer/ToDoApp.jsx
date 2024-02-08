@@ -15,8 +15,13 @@ export const ToDoApp = () => {
   return (
     <>
       <h1>
-        Todo App <span className="border border-primary rounded p-2 mx-3">Tareas: {countTodos}</span>{" "}
-        <span className="border border-danger rounded p-2 mx-3">Pendientes: {pendingTodos}</span>
+        Todo App{" "}
+        <span className="border border-primary rounded p-2 mx-3">
+          Tareas: {countTodos}
+        </span>{" "}
+        <span className="border border-danger rounded p-2 mx-3">
+          Pendientes: {pendingTodos}
+        </span>
       </h1>
       <hr />
       <div className="row">
