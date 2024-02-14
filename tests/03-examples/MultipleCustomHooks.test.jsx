@@ -1,7 +1,5 @@
 const { render, screen, fireEvent } = require("@testing-library/react");
-const {
-  MultipleCustomHooks,
-} = require("../../src/03-examples/MultipleCustomHooks");
+const { MultipleCustomHooks } = require("../../src/03-examples/MultipleCustomHooks");
 const { useFetch } = require("../../src/03-examples/hooks/useFetch");
 const { useCounter } = require("../../src/03-examples/hooks/useCounter");
 
