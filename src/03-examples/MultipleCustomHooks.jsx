@@ -26,8 +26,6 @@ export const MultipleCustomHooks = () => {
     image,
   };
 
-  console.log(character);
-
   return (
     <>
       <h2 className="d-inline-block mx-3">Rick and Morty Characters App </h2>

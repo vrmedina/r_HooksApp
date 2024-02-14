@@ -10,7 +10,6 @@ export const Character = ({ character }) => {
   useLayoutEffect(() => {
     const { width, height } = cardRef.current.getBoundingClientRect();
     setCardSize({ width, height });
-    console.log(cardRef.current.getBoundingClientRect());
   }, []);
 
   return (
