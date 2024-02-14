@@ -58,7 +58,6 @@ describe("Pruebas en <MultipleCustomHooks />", () => {
     render(<MultipleCustomHooks />);
     expect(screen.getByText("Rick Sanchez")).toBeTruthy();
     expect(screen.getByText("Human")).toBeTruthy();
-    screen.debug();
   });
 
   test("debe llamar la funcion de incrementar", () => {
